@@ -1,1 +1,1 @@
-<h1 align="center">This is a student project and uploaded here for presentation</h1>
+<h2 align="center">This is a typical student project and uploaded here for presentation to the university</h2>
