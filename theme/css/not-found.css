@@ -1,0 +1,60 @@
+.not-found {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.not-found .not-found-error-code span {
+    font-size: 246px;
+}
+
+.not-found .description {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.not-found .options a {
+    text-decoration: none;
+    color: #8D5CEC;
+}
+
+.not-found .options p {
+    font-size: 32px;
+}
+
+.not-found .options .search-box {
+    background: #fff;
+    width: 400px;
+    margin: auto;    
+    position: relative;
+    top: 40%;
+    border-radius: 32px;
+}
+.not-found .options .search-box:hover {
+    box-shadow: 0px 1px 5px 2px #eee;
+}
+
+.not-found .options .search-box input {
+    width: 85%;
+    margin: 0;
+    padding: 8px;
+    height: 56px;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.not-found .options .search-box input:focus {
+    background: transparent
+}
+
+.not-found .options .search-box button {
+    background:transparent;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+.not-found .options .search-box button img {
+    position: relative;
+    width: 24px;
+    height: 24px;    
+}

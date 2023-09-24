@@ -1,0 +1,633 @@
+/* Disable google chrome input outline style */
+*:focus { outline: none; }
+
+/* Set default font for all elements */
+* { font-family: Digi Gran Payeh Bold}
+
+html,
+body {
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+    background: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+    color: rgb(59, 57, 63) !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+p {line-height: 2em;}
+
+img { vertical-align: middle; }
+.clear-both { clear: both; }
+
+.error-message {
+    font-size: 12px;
+    color: red !important;
+}
+
+.success-payment {
+    padding: 4px 16px;
+    background: rgba(26, 217, 105, 0.21);
+    color: #1ad969 !important;
+    border-radius: 4px;
+}
+
+.failed-payment {
+    padding: 4px 16px;
+    background: rgba(217, 51, 84, 0.21);
+    color: #d93354 !important;
+    border-radius: 4px;
+}
+
+.price:after {
+    content: 'تومان';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Primary button */
+.primary-button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background: #8D5CEC;
+    color: white;
+    margin: 4px;
+}
+
+.primary-button:hover {
+    background: rgb(121, 71, 219);
+}
+
+.primary-button:focus {
+    box-shadow: 0px 0px 2px 1px #a5a5a5;
+}
+
+/* Secondary button */
+.secondary-button {
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background: transparent;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(59, 57, 63) !important;
+    transition: background 0.25s ease-out;
+}
+
+.secondary-button:hover {
+    background: #f0f0f0;
+}
+
+.secondary-button:focus {
+    background: #e7d8f8;
+}
+
+/* action button */
+.action-button {
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 32px;
+    border: 1px solid transparent;
+    background: #fafafa;
+    width: 48px;
+    height: 48px;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(59, 57, 63) !important;
+    transition: background 0.25s ease-out;
+}
+
+.action-button:hover {
+    background: #f0f0f0;
+}
+
+.action-button:focus {
+    background: #e7d8f8;
+}
+
+/* Text Box */
+.text-box { 
+    background: #f5f5f5;
+    padding: 12px;
+    margin: 4px;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.text-box:focus { 
+    background: #eee;
+}
+
+/* Card */
+.card {
+    padding: 8px;
+    margin: 12px 8px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 1px #eee;
+}
+
+/*
+    login form container
+*/
+.login-form-container {
+    margin: auto;
+    margin-top: 6%;
+    width: 400px;
+    text-align: center;
+}
+
+.login-form-container input[type="text"],
+.login-form-container input[type="password"] {
+    width: 80%;
+}
+.login-form-container .buttons {
+    margin-top: 16px;
+}
+
+/*
+    signup form container
+*/
+.signup-form-container {
+    margin: auto;
+    margin-top: 6%;
+    width: 400px;
+    text-align: center;
+}
+
+.signup-form-container input[type="text"],
+.signup-form-container input[type="password"] {
+    width: 80%;
+}
+.signup-form-container .buttons {
+    margin-top: 16px;
+}
+
+/*
+    right sidebar
+*/
+.right-sidebar {
+    width:240px;
+    height: 100%;
+    z-index: 1;
+    background-color: #f5f5f5;
+    position: fixed;    
+}
+
+.right-sidebar button {
+    width: 240px !important;
+    margin: 0 !important;
+    color: #666666 !important;
+    font-weight: bold;
+}
+
+.right-sidebar button:hover,
+.right-sidebar button:focus {
+    background: #e5e5e5;
+}
+
+.right-sidebar a {
+    display: block;
+    margin: 8px auto;
+}
+
+.right-sidebar a:nth-child(1) {
+    margin-top: 32px;
+}
+
+.right-sidebar .active-section {
+    background: #e8e8e8;
+}
+
+/*
+    search box
+*/
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; 
+}
+
+.toolbar .add-button {
+    position: absolute;
+    right: 260px;
+}
+
+.search-box {
+    background: #fff;
+    width: 400px;
+    margin: auto;   
+    border-radius: 32px;
+}
+.search-box:hover {
+    box-shadow: 0 1px 5px 2px #eee;
+}
+
+.search-box input {
+    width: 85%;
+    margin: 0;
+    padding: 8px;
+    height: 56px;
+    border-radius: 0;
+    background: transparent;
+}
+
+.search-box input:focus {
+    background: transparent
+}
+
+.search-box button {
+    background: transparent;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+
+
+/* 
+    products list 
+*/
+.products {
+    padding: 1px 32px 32px;
+    width: 80%;
+    float: none;
+    margin: auto 240px auto auto;
+}
+
+.products .list {
+    width: 100%;
+    margin: auto;
+    margin-top: 32px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; 
+}
+
+.products .list .item-link {
+    text-decoration: none;
+ }
+
+ .products .list .card {
+    padding: 0 !important;
+    width: 300px;
+    height: 346px;
+}
+
+.products .list .card h1 {
+    word-wrap: break-word;
+    text-overflow: clip;
+}
+
+.products .list .card{
+    padding: 0 !important;
+    width: 320px;
+    height: 364px;
+}
+
+.products .list .card img {
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 200px;
+}
+
+.products .list .card .date {
+    color: rgb(95, 89, 107) !important;
+    font-size: 14px !important;
+    margin-right: 8px;
+    position: relative;
+}
+
+.products .list .card .date::before {
+    content: 'در تاریخ:';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-left: 6px;
+}
+
+.products .list .card .price-and-date .separator {
+    opacity: 0.0;
+    margin: 4px;
+}
+
+.products .list .card h1 {
+    font-size: 14px;
+    margin: 16px 4px; 
+    opacity: 0.8;   
+    text-align: center;
+    height: 32px;
+}
+
+.products .list .card .price {
+    color: rgb(95, 89, 107) !important;
+    font-size: 14px !important;
+    margin-right: 8px;
+    position: relative;
+}
+
+.products .list .card .price::after {
+    content: 'تومان';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+
+.products .list .card button {
+    color: #8D5CEC !important;
+    font-weight: bold;
+    margin-top: 16px !important;
+}
+
+.products .list .card button:hover {
+    background: #eee;
+}
+
+/*
+    add new product
+*/
+.add-new-product {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-right: 240px;
+}
+
+.add-new-product .text-box {
+    background: #fff;
+}
+
+.add-new-product .caption {
+    width: 35%;
+}
+
+.product-image {
+    margin: 8px;
+}
+
+.add-new-product  .add-button {
+    margin-top: 8px;
+}
+
+.add-new-product .description-and-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    margin-top: 8px;
+}
+
+.description-and-image .description {
+    width: 100% !important;
+}
+
+.description-and-image .image {
+    text-align: center;
+    margin-right: 8px;   
+}
+
+.description-and-image .image img {
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 200px;
+    margin-bottom: 16px;
+}
+
+.cke_editable {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    background: rebeccapurple !important;
+}
+
+/* 
+    users list 
+*/
+.users {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-right: 240px;
+}
+
+.users .list table {
+    margin: auto;
+    width: 100%;
+}
+
+.users .list table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.users .list table td {
+    margin: 0px;
+    height: 44px;
+    background: #fff;
+    box-shadow: 0px 2px 2px 1px #eee;
+    border-radius: 4px;
+}
+
+.users .list table tr { border: 8px solid #f7f7f7; }
+
+
+/*
+    add new user
+*/
+.add-new-user {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-right: 240px;
+}
+
+.add-new-user .text-box {
+    background: #fff;
+    width: 300px;
+}
+
+/* 
+    customers list 
+*/
+.customers {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-right: 240px;
+}
+
+.customers .list table {
+    margin: auto;
+    width: 100%;
+}
+
+.customers .list table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.customers .list table td {
+    margin: 0px;
+    height: 44px;
+    background: #fff;
+    box-shadow: 0px 2px 2px 1px #eee;
+    border-radius: 4px;
+}
+
+.customers .list table tr { border: 8px solid #f7f7f7; }
+
+
+/*
+    add new customer
+*/
+.add-new-customer {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 1px;
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-right: 240px;
+}
+
+.add-new-customer .text-box {
+    background: #fff;
+    width: 300px;
+}
+
+.order-receipt-section {
+    width: 100%;
+    min-height: 600px;
+}
+
+.order-receipt-section .caption {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.order-receipt-section .price:after {
+    content: 'تومان';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+.order-receipt-section table {
+    margin: auto;
+    width: 90%;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.order-receipt-section table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.order-receipt-section table td {
+    margin: 0;
+    height: 44px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #fafafa;
+}
+
+.order-receipt-section table td img {
+    width: 64px;
+    height: 64px;
+}
+.order-receipt-section .list-header {
+    background: #fff;
+    border-bottom: 6px solid #fafafa !important;
+}
+
+.order-receipt-section .list-footer {
+    width: 90%;
+    margin: auto;
+    background: #ffffff;
+    height: 56px;
+    border-top: 4px solid #fafafa !important;
+}
+
+.order-receipt-section .list-footer .details {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.order-receipt-section .list-footer .details div {
+    margin-top: 18px;
+    margin-right: 32px;
+}

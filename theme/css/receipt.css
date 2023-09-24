@@ -1,0 +1,74 @@
+.order-receipt-section {
+    width: 100%;
+    min-height: 600px;
+}
+
+.order-receipt-section .caption {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.order-receipt-section .price:after {
+    content: 'تومان';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+.order-receipt-section table {
+    margin: auto;
+    width: 90%;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.order-receipt-section table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.order-receipt-section table td {
+    margin: 0;
+    height: 44px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #fafafa;
+}
+
+.order-receipt-section table td img {
+    width: 64px;
+    height: 64px;
+}
+.order-receipt-section .list-header {
+    background: #fff;
+    border-bottom: 6px solid #fafafa !important;
+}
+
+.order-receipt-section .list-footer {
+    width: 90%;
+    margin: auto;
+    background: #ffffff;
+    height: 56px;
+    border-top: 4px solid #fafafa !important;
+}
+
+.order-receipt-section .list-footer .details {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.order-receipt-section .list-footer .details div {
+    margin-top: 18px;
+    margin-right: 32px;
+}

@@ -1,0 +1,133 @@
+
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+  }
+  
+  .loader > img {
+    width: 100px;
+  }
+  
+  .loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  .thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+  }
+.cart-items-section {
+    width: 100%;
+    min-height: 600px;
+}
+.cart-items-section .caption {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.cart-items-section .price:after {
+    content: 'تومان';
+    position: relative;
+    left: 0;
+    top: -1px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+.cart-items-section table {
+    margin: auto;
+    width: 90%;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.cart-items-section table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.cart-items-section table td {
+    margin: 0;
+    height: 44px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #fafafa;
+}
+
+.cart-items-section table td img {
+    width: 64px;
+    height: 64px;
+}
+.cart-items-section .list-header {
+    background: #fff;
+    border-bottom: 6px solid #fafafa !important;
+}
+
+.cart-items-section .list-footer {
+    width: 90%;
+    margin: auto;
+    background: #ffffff;
+    height: 56px;
+    border-top: 4px solid #fafafa !important;
+}
+
+.cart-items-section .list-footer div {
+    /*margin: auto 16px;*/
+}
+
+.cart-items-section .list-footer .details {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cart-items-section .list-footer .details div {
+    margin-top: 18px;
+    margin-right: 32px;
+}
+
+.cart-items-section .list-footer .buttons {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.cart-items-section .list-footer .buttons .primary {
+    margin-top: 12px;
+    margin-left: 16px;
+}

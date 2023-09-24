@@ -1,0 +1,44 @@
+.search-page .search-box {
+    background: #fff;
+    width: 400px;
+    margin: auto;   
+    margin-top: 4%; 
+    position: relative;
+    top: 40%;
+    border-radius: 32px;
+}
+.search-page .search-box:hover {
+    box-shadow: 0px 1px 5px 2px #eee;
+}
+
+.search-page .search-box input {
+    width: 85%;
+    margin: 0;
+    padding: 8px;
+    height: 56px;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.search-page .search-box input:focus {
+    background: transparent
+}
+
+.search-page .search-box button {
+    background:transparent;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+.search-page .search-box button img {
+    position: relative;
+    width: 24px;
+    height: 24px;    
+}
+
+.search-page .search-result {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 6px;
+}

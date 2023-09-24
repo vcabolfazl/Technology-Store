@@ -1,0 +1,101 @@
+.customer-panel {
+    margin:auto;
+    position: relative;
+    min-height: 80%;
+}
+
+.customer-panel .caption {
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+.customer-panel .content {
+    width: 70%;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    min-height: 400px;
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.customer-panel .content .tab-menu {
+    width: 240px;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #e5e5e5;
+}
+
+.customer-panel .content .tab-menu .active-item {
+    font-weight: bold !important;
+    color: #000000 !important;
+    border-right: 2px solid #000000;
+    background: transparent;
+}
+
+.customer-panel .content .tab-menu .active-item:hover {
+    border-right: 2px solid #000000 !important;
+}
+
+.customer-panel .content .tab-menu button {
+    padding: 12px 16px !important;
+    border-radius: 2px;
+    border:none;
+    border-right: 2px solid transparent;
+    background: transparent;
+    text-decoration: none;
+    margin: 0;
+    text-align: right;
+    font-weight: normal !important;
+}
+
+.customer-panel .content .tab-menu button:hover {
+    border-right: 2px solid #eeeeee;
+}
+
+.customer-panel .content .menu-item-content {
+    padding: 8px;
+    width: 100%;
+}
+
+.customer-panel .content .menu-item-content input[type="text"],
+.customer-panel .content .menu-item-content input[type="password"],
+.customer-panel .content .menu-item-content input[type="tel"] {
+    width: 300px;
+}
+
+.customer-panel .content .menu-item-content table {
+    margin: auto;
+    width: 100%;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.customer-panel .content .menu-item-content table th {
+    font-weight: normal;
+    opacity: 0.5;
+    padding: 16px;
+}
+
+.customer-panel .content .menu-item-content table td {
+    margin: 0;
+    height: 68px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #fafafa;
+}
+
+.customer-panel .content .menu-item-content table td img {
+    width: 64px;
+    height: 64px;
+}
+.customer-panel .content .menu-item-content .list-header {
+    background: #ffffff;
+    border-bottom: 6px solid #fafafa !important;
+}

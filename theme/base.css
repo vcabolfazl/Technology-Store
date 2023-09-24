@@ -1,0 +1,227 @@
+/* Disable google chrome input outline style */
+*:focus { outline: none; }
+
+/* Set default font for all elements */
+* { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+html,
+body {
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+    background: #f7f7f7;
+}
+
+h1 {font-size: 20px !important;}
+h2 {font-size: 18px !important;}
+h3 {font-size: 16px !important;}
+h4 {font-size: 14px !important;}
+h5 {font-size: 12px !important;}
+h6 {font-size: 10px !important;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+    color: rgb(59, 57, 63) !important;
+}
+
+p {line-height: 2em; font-size: 14px !important; }
+
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+img { vertical-align: middle; }
+.clear-both { clear: both; }
+
+button {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Primary button */
+.primary-button {
+    padding: 8px 16px !important;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background: #8D5CEC;
+    color: white;
+    margin: 4px;
+}
+
+.primary-button:hover {
+    background: rgb(121, 71, 219);
+}
+
+.primary-button:focus {
+    box-shadow: 0px 0px 2px 1px #a5a5a5;
+}
+
+/* Secondary button */
+.secondary-button {
+    padding: 12px 16px !important;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background: transparent;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(59, 57, 63) !important;
+    transition: background 0.25s ease-out;
+}
+
+.secondary-button:hover {
+    background: #f0f0f0;
+}
+
+.secondary-button:focus {
+    background: #fafafa;
+}
+
+/* action button */
+.action-button {
+    padding: 12px 16px;
+    border-radius: 32px;
+    border: 1px solid transparent;
+    background: #fafafa;
+    width: 48px;
+    height: 48px;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(59, 57, 63) !important;
+    transition: background 0.25s ease-out;
+}
+
+.action-button:hover {
+    background: #f0f0f0;
+}
+
+.action-button:focus {
+    background: #e7d8f8;
+}
+
+/* action tool button */
+.action-tool-button {
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background: transparent;
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(59, 57, 63) !important;
+    transition: background 0.25s ease-out;
+}
+
+.action-tool-button:hover {
+    background: #f0f0f0;
+}
+
+.action-tool-button:focus {
+    background: #e7d8f8;
+}
+
+/* Text Box */
+.text-box { 
+    background: #f5f5f5;
+    padding: 12px;
+    margin: 4px;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.text-box:focus { 
+    background: #eee;
+}
+
+/* Card */
+.card {
+    padding: 8px;
+    margin: 12px 8px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 1px #e5e5e5;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red !important;
+}
+
+.link-button {
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 4px 8px !important;
+    color: rgb(59, 57, 63) !important;
+}
+
+.success-payment {
+    padding: 4px 16px;
+    background: rgba(26, 217, 105, 0.21);
+    color: #1ad969 !important;
+    border-radius: 4px;
+}
+
+.failed-payment {
+    padding: 4px 16px;
+    background: rgba(217, 51, 84, 0.21);
+    color: #d93354 !important;
+    border-radius: 4px;
+}
+
+.available-product {
+    padding: 4px 16px;
+    background: rgba(26, 217, 105, 0.21);
+    color: #1ad969 !important;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.unavailable-product {
+    padding: 4px 16px;
+    background: rgba(217, 51, 84, 0.21);
+    color: #d93354 !important;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+button:disabled,
+button[disabled] {
+    cursor: default !important;
+    background-color: #ffffff !important;
+    color: #cccccc !important;
+}
+
+button:disabled:hover,
+button[disabled]:hover {
+    background-color: #ffffff !important;
+    color: #cccccc !important;
+}
+
+.quantity-status-label {
+    position: absolute;
+    background: #000000;
+    color: white !important;
+    padding: 4px 18px;
+    transform: rotate(-90deg);
+    height: 28px;
+    z-index: 1;
+    top: 26px;
+    left: -26px;
+    opacity: 0.8;
+}

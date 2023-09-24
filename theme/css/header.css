@@ -1,0 +1,91 @@
+header {
+    background: #ffffff;
+    padding: 0px 4px 5px 4px;
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+
+}
+
+/* site logo */
+header .logo-wrapper {
+    float: right;
+    width: 6%;
+}
+
+header .header-logo {
+    width: 58px;
+    height: 48px;
+    margin: 4px 40px 0 -40px;
+}
+
+/* menu */
+header .main-menu {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+padding-left: 15px;
+}
+
+header li a {
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.25s ease-out;
+    font-size: 14px;
+    font-weight: 600;
+}
+header li a:hover {
+    background: rgb(122, 73, 219);
+    color: #fff;
+}
+
+.active-page-menu-item {
+    background: #ffffff;
+    color: rgb(122, 73, 219);
+}
+
+.active-page-menu-item:hover {
+    background: #e9e8e8;
+    color: rgb(122, 73, 219);
+}
+
+/* shop basket */
+header .basket {
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+
+header .basket {
+    margin: 10px 0 0px 16px;
+}
+
+header .basket-button {
+    color: rgb(122, 73, 219);
+    border: none;
+    position: relative;
+
+}
+
+header .basket-button .badge {
+    position: absolute;
+    background: #eee;
+    border-radius: 32px;
+    display: inline-block;
+    padding: 4px;
+    color: #000 !important;
+    right: -16px;
+    top: -16px; 
+    font-size: 10px;
+    font-weight: bold;
+}
+header .basket-button i{
+padding-left: 15px;
+}
